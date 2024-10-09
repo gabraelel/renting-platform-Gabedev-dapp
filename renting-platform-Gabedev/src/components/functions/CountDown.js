@@ -1,7 +1,5 @@
-// src/components/functions/CountDown.js
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-
 function CountDown({ h, m, s }) {
   const [hours, setHours] = useState(h);
   const [minutes, setMinutes] = useState(m);
@@ -43,4 +41,3 @@ CountDown.propTypes = {
 };
 
 export default CountDown;
-
