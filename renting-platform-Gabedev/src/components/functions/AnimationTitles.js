@@ -1,4 +1,3 @@
-// src/components/functions/AnimationTitles.js
 import React from 'react';
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
