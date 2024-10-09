@@ -1,4 +1,4 @@
-// src/pages/Properties.js
+
 import React, { useState, useEffect } from 'react';
 import { Button, Card, Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
