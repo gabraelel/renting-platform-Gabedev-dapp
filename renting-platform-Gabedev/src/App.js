@@ -8,6 +8,23 @@ import Loading from "./pages/Header";
 import Partners from "./pages/Partners";
 import Properties from "./pages/Properties";
 import Subscribe from "./pages/Subscribe";
+import React from 'react';
+import BNBPriceDisplay from './BNBPriceDisplay'; // Import the BNB price display component
+import Properties from './Properties'; // Import the shuffled properties component
+
+const App = () => {
+  return (
+    <div>
+      {/* Display BNB price at the top */}
+      <BNBPriceDisplay />
+      {/* Display shuffled property cards */}
+      <Properties />
+    </div>
+  );
+};
+
+export default App;
+
 
 function App() {
   return (
